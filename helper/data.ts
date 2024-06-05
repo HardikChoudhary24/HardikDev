@@ -1,6 +1,6 @@
 export const projectsList = [
   {
-    image: "/assets/movieCentral.png",
+    image: "/assets/chatPdf.png",
     name: "ChatPdf",
     desc: "The project is a web application that uses AI to answer questions from uploaded PDFs. It can handle different PDF formats like resumes and MCQ exams, and allows users to ask follow-up questions based on the context of the document.",
     stack: [
@@ -11,11 +11,21 @@ export const projectsList = [
       "Express.js,",
       "TypeScript",
     ],
-    demoLink: "https://github.com/HardikChoudhary24/chatPdf-client",
+    demoLink: "https://chatpdf.hardikchoudhary.in",
     codeLink: "https://github.com/HardikChoudhary24/chatPdf-client",
+    scrollImage: false,
   },
   {
     image: "/assets/movieCentral.png",
+    name: "Movie Central",
+    desc: "Movie Central is your one-stop shop for exploring movies & TV shows. Browse details, discover streaming options, and find the perfect watch next!",
+    stack: ["React,", "Redux Toolkit,", "SCSS"],
+    demoLink: "https://hardikchoudhary24.github.io/MERN-MovieCentral/",
+    codeLink: "https://github.com/HardikChoudhary24/MERN-MovieCentral",
+    scrollImage: false,
+  },
+  {
+    image: "/assets/jetcord.png",
     name: "Jetcord",
     desc: "The project is a web application that uses AI to answer questions from uploaded PDFs. It can handle different PDF formats like resumes and MCQ exams, and allows users to ask follow-up questions based on the context of the document.",
     stack: [
@@ -26,24 +36,14 @@ export const projectsList = [
       "Prisma,",
       "TypeScript",
     ],
-    demoLink: "https://github.com/HardikChoudhary24/Jetcord-client",
     codeLink: "https://github.com/HardikChoudhary24/Jetcord-client",
-  },
-  {
-    image: "/assets/movieCentral.png",
-    name: "Movie Central",
-    desc: "Movie Central is your one-stop shop for exploring movies & TV shows. Browse details, discover streaming options, and find the perfect watch next!",
-    stack: ["React,", "Redux Toolkit,", "SCSS"],
-    demoLink: "https://hardikchoudhary24.github.io/MERN-MovieCentral/",
-    codeLink: "https://github.com/HardikChoudhary24/MERN-MovieCentral",
-    scrollImage: true,
+    scrollImage: false,
   },
   {
     image: "/assets/discord.png",
     name: "Sky Scanner Bot",
     desc: "Never miss a flight deal! Sky Scanner Bot tracks prices for your trip on Discord. Set it up with your destination and dates, then relax - it'll ping you if prices drop on Sky Scanner.",
     stack: ["JavaScript"],
-    demoLink: "https://github.com/HardikChoudhary24/SkyScannerBot",
     codeLink: "https://github.com/HardikChoudhary24/SkyScannerBot",
     scrollImage: false,
   },

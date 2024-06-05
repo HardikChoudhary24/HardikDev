@@ -61,13 +61,15 @@ const ProjectCard = ({
           >
             <FaGithub size={30} />
           </Link>
-          <Link
-            href={project.demoLink}
-            className="bg-white p-1 rounded-full text-black cursor-pointer  hover:bg-green-500"
-            target="_blank"
-          >
-            <LuLink size={20} />
-          </Link>
+          {project.demoLink && (
+            <Link
+              href={project.demoLink}
+              className="bg-white p-1 rounded-full text-black cursor-pointer  hover:bg-green-500"
+              target="_blank"
+            >
+              <LuLink size={20} />
+            </Link>
+          )}
         </div>
       </div>
       <div className="w-fit">
