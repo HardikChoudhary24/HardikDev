@@ -1,6 +1,6 @@
 export const projectsList = [
   {
-    image: "/assets/chatPdf.png",
+    image: "/assets/chatPDF.png",
     name: "ChatPdf",
     desc: "The project is a web application that uses AI to answer questions from uploaded PDFs. It can handle different PDF formats like resumes and MCQ exams, and allows users to ask follow-up questions based on the context of the document.",
     stack: [
