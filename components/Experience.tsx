@@ -3,8 +3,15 @@ import React, { useRef } from "react";
 import Margin from "./Margin";
 import { experience, languagesAndTools } from "@/helper/data";
 import Image from "next/image";
-import { roboto_mono } from "@/app/layout";
+import {Roboto_Mono } from "next/font/google";
+
 import { useScroll, useTransform, motion } from "framer-motion";
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-roboto_mono",
+});
 
 const Experience = () => {
   const ref = useRef<HTMLDivElement>(null);

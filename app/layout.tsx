@@ -8,7 +8,7 @@ const rubik = Rubik_Mono_One({
   weight: ["400"],
   variable: "--font-rubik",
 });
-export const roboto_mono = Roboto_Mono({
+const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-roboto_mono",
