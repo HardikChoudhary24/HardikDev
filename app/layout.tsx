@@ -3,7 +3,7 @@ import { Inter, Rubik_Mono_One, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-export const rubik = Rubik_Mono_One({
+const rubik = Rubik_Mono_One({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-rubik",
