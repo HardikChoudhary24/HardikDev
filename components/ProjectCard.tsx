@@ -77,7 +77,7 @@ const ProjectCard = ({
             alt={project.name}
             className={`w-[250px] md:w-[500px] lg:w-[550px] ${
               project.scrollImage
-                ? "hover:translate-y-[-55%] transition-all ease-in-out duration-[3000ms]"
+                ? "lg:hover:translate-y-[-55%] transition-all ease-in-out duration-[3000ms]"
                 : ""
             } `}
           />

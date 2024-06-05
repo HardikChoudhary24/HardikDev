@@ -46,7 +46,7 @@ const Experience = () => {
                 key={company.company}
                 className="flex flex-col justify-start items-start gap-y-8"
               >
-                <div className="flex w-full justify-between items-center">
+                <div className="flex w-full flex-col lg:flex-row justify-start items-start gap-y-4 lg:justify-between lg:items-center">
                   <h1 className="text-lg font-bold">
                     <span className="underline underline-offset-8 decoration-green-500">
                       {company.company}
