@@ -12,7 +12,7 @@ type props = {
         name: string;
         desc: string;
         stack: string[];
-        demoLink: string;
+        demoLink?: string;
         codeLink: string;
         scrollImage: boolean;
       }
@@ -21,7 +21,7 @@ type props = {
         name: string;
         desc: string;
         stack: string[];
-        demoLink: string;
+        demoLink?: string;
         codeLink: string;
         scrollImage?: undefined;
       };
