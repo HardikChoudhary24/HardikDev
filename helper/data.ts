@@ -27,7 +27,7 @@ export const projectsList = [
   {
     image: "/assets/jetcord.png",
     name: "Jetcord",
-    desc: "The project is a web application that uses AI to answer questions from uploaded PDFs. It can handle different PDF formats like resumes and MCQ exams, and allows users to ask follow-up questions based on the context of the document.",
+    desc: "The project is a web application that allows users to share and interact with content in a social media environment. Users can post updates, like, and comment on posts, fostering engagement and community interaction. The platform is designed with a user-friendly interface and supports multimedia content such as images and videos.",
     stack: [
       "NextJS,",
       "TailwindCSS,",
