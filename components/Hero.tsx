@@ -37,7 +37,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-5">
+        <div className="flex flex-col justify-center items-center gap-y-5 px-5 lg:px-0">
           <h1 className="font-extrabold text-4xl lg:text-6xl text-wrap text-center">
             HARDIK CHOUDHARY
           </h1>
