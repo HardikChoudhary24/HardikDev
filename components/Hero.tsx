@@ -8,7 +8,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <Margin>
-      <div className="flex mt-16 lg:mt-0 flex-col-reverse lg:flex-row justify-between items-center text-white gap-x-12 gap-y-12">
+      <div className="flex mt-32 lg:mt-0 flex-col-reverse lg:flex-row justify-between items-center text-white gap-x-12 gap-y-12">
         <div className="absolute top-10 right-0 left-0 px-10 w-full flex justify-between items-center">
           <p className="text-xl lg:text-3xl font-extrabold ">
             HardikDev<span className="text-green-500">.</span>
@@ -71,11 +71,13 @@ const Hero = () => {
             Building Seamless Applications,
             <br /> One Line at a Time.
           </p>
-          <button
+          <Link
+            href="https://drive.google.com/file/d/1oHAaSn3k3cH78BjytOczLq-zWjwgCBoF/view?usp=sharing"
+            target="_blank"
             className={`rounded-lg bg-white text-xl text-black font-bold p-2 transition-all duration-500 ease-in-out hover:bg-green-500`}
           >
             Resume
-          </button>
+          </Link>
         </div>
         <div className="w-fit flex justify-center items-center h-full">
           <img
