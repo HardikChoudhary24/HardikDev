@@ -72,7 +72,7 @@ const Hero = () => {
             <br /> One Line at a Time.
           </p>
           <Link
-            href="https://drive.google.com/file/d/1oHAaSn3k3cH78BjytOczLq-zWjwgCBoF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LbVCFi_SWIXkZ3C4Vjd2M9IBWde1_rEJ/view?usp=sharing"
             target="_blank"
             className={`rounded-lg bg-white text-xl text-black font-bold p-2 transition-all duration-500 ease-in-out hover:bg-green-500`}
           >
