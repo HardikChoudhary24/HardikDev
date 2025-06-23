@@ -49,7 +49,6 @@ export const projectsList = [
   },
 ];
 
-
 export const languagesAndTools = [
   {
     name: "graphql",
@@ -106,13 +105,24 @@ export const languagesAndTools = [
   }, // PostgreSQL (widely used relational database)
 ];
 
-
 export const experience = [
+  {
+    company: "Junglee Games",
+    position: "SDE Intern",
+    startDate: "Sep 2024",
+    endDate: "Present",
+    highlights: [
+      "Built scalable Flutter apps using a modular architecture with controllers, providers, services, and screens. ",
+      "Managed app state with Provider and Bloc; integrated REST APIs via service layers. ",
+      "Developed a Node.js middleware gateway for routing and authentication between frontend and microservices. ",
+      "Created internal admin panels using React and TypeScript for business operations. ",
+    ],
+  },
   {
     company: "Hyperly",
     position: "Frontend Developer Intern",
     startDate: "Apr 2024",
-    endDate: "Present",
+    endDate: "Jul 2024",
     highlights: [
       "Developed and maintained frontend components using Next.js, TypeScript, and TailwindCSS. ",
       "Ensured efficient and responsive user interfaces for web applications. ",
