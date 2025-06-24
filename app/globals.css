@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,7 +36,10 @@ h1 {
   font-family: var(--font-rubik), serif;
 }
 
-h2,h3,p,span {
+h2,
+h3,
+p,
+span {
   font-family: var(--font-roboto_mono), serif;
 }
 
@@ -47,7 +50,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 
 h1,
 h2 {
